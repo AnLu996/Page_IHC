@@ -56,7 +56,7 @@
           <h4>La Solución</h4>
           <p><strong>SECUREPLAY VR</strong> es un simulador inmersivo que entrena la respuesta de huida en un entorno seguro y controlado.</p>
           <div style="margin-top: 20px;">
-            <img src="assets/img/fondo_secureplay/Fondo-Mapa.jpeg" alt="Simulación VR" class="slide-image" style="max-width: 100%;">
+            <img src="assets/img/fondo_secureplay/Fondo-Pista.jpeg" alt="Simulación VR" class="slide-image" style="max-width: 100%;">
           </div>
           <p style="margin-top: 15px; font-size: 0.95em;">Permite practicar sin riesgo real, recibir retroalimentación inmediata y mejorar progresivamente las habilidades de reacción.</p>
         </div>
@@ -196,10 +196,16 @@
           <div class="sp-content active">
             <h4>Needfinding</h4>
             <p>
-              Entrevistas presenciales y observación de usuarios para identificar
+              Entrevistas y observación de usuarios para identificar
               patrones reales de reacción ante robos urbanos.
             </p>
+            
+            <div class="sp-media-grid sp-media-2">
+              <img src="assets/img/needfinding-diapos.png" alt="Entrevista usuario">
+              <img src="assets/img/needfinding-entrevistas.png" alt="Observación contextual">
+            </div>
           </div>
+          
           
           <div class="sp-content">
             <h4>Análisis de Usuarios</h4>
@@ -207,15 +213,31 @@
               Clasificación de 4 perfiles de huida: impulsiva, mínimo control,
               controlada y bloqueo inicial.
             </p>
+            
+            <div class="sp-media-grid sp-media-4">
+              <img src="assets/img/usuario1.png" alt="Perfil impulsivo">
+              <img src="assets/img/usuario2.png" alt="Perfil mínimo control">
+              <img src="assets/img/usuario3.png" alt="Perfil controlado">
+              <img src="assets/img/usuario4.png" alt="Perfil bloqueado">
+            </div>
           </div>
           
+          
           <div class="sp-content">
-            <h4>Diseño de Interfaz</h4>
+            <h4>Diseño del Prototipo de Baja Fidelidad</h4>
             <p>
               Diseño de metáforas y flujos VR aplicando heurísticas de Nielsen
-              adaptadas a situaciones de estrés.
+              adaptadas a situaciones.
             </p>
+            
+            <div class="sp-media-video">
+              <video controls muted playsinline>
+                <source src="assets/videos/Dashboard - Video 1.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+              </video>
+            </div>
           </div>
+          
           
           <div class="sp-content">
             <h4>Desarrollo VR</h4>
@@ -223,14 +245,27 @@
               Implementación de escenarios urbanos inmersivos con señales visuales,
               auditivas y temporales.
             </p>
+            
+            <div class="sp-media-grid sp-media-3">
+              <img src="assets/img/desarrollo_1.jpeg" alt="Escenario urbano VR">
+              <img src="assets/img/desarrollo_2.jpeg" alt="Señales visuales VR">
+              <img src="assets/img/desarrollo_3.jpeg" alt="Interacción usuario VR">
+            </div>
           </div>
           
+          
           <div class="sp-content">
-            <h4>Pruebas de Usuario</h4>
+            <h4>Desarrollo VR</h4>
             <p>
-              Evaluaciones presenciales, registro de feedback y ajustes iterativos
-              basados en comportamiento real.
+              Implementación de escenarios urbanos inmersivos con señales visuales,
+              auditivas y temporales.
             </p>
+            
+            <div class="sp-media-grid sp-media-3">
+              <img src="assets/img/prueba_1.png" alt="Escenario urbano VR">
+              <img src="assets/img/prueba_2.png" alt="Señales visuales VR">
+              <img src="assets/img/prueba_3.png" alt="Interacción usuario VR">
+            </div>
           </div>
           
         </div>
@@ -255,61 +290,75 @@
       <!-- Layout 40 / 60 -->
       <div class="user-experience-layout">
         
-        <!-- LADO IZQUIERDO: VIDEO -->
-        <div class="user-video">
-          <video controls muted playsinline>
-            <source src="assets/video/experiencia_usuario.mp4" type="video/mp4">
-            Tu navegador no soporta video.
-          </video>
-          <p class="video-caption">Registro real de interacción de usuarios en entorno VR</p>
+        <!-- LADO IZQUIERDO: BOTÓN DE VIDEO -->
+        <div class="user-video user-video-cta">
+          <div class="video-cta-card">
+            <div class="video-cta-icon">🎥</div>
+            <h4>Experiencia Real de Usuarios</h4>
+            <p>
+              Accede a los registros completos de interacción
+              de usuarios en entornos VR reales.
+            </p>
+
+            <a 
+              href="https://drive.google.com/file/d/1T1nEu3RlG7xz-5D56K5D_TwpNEeOyKLM/view?usp=sharing"
+              target="_blank"
+              class="btn"
+            >
+              Ver video
+            </a>
+          </div>
         </div>
+
         
-        <!-- CONTENEDOR DE TESTIMONIOS -->
-        <div class="user-testimonials">
-          <div class="testimonial-card">
-            <div class="testimonial-text">
-              "La simulación me ayudó a entender que debo pausar antes de reaccionar."
+        <div class="user-testimonials-wrapper">
+          
+          <!-- CONTENEDOR DE TESTIMONIOS -->
+          <div class="user-testimonials">
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "La simulación me ayudó a entender que debo pausar antes de reaccionar."
+              </div>
+              <div class="testimonial-author">
+                — Yesenia, 49 años<br>Grupo 1: Huida Impulsiva
+              </div>
             </div>
-            <div class="testimonial-author">
-              — Yesenia, 49 años<br>Grupo 1: Huida Impulsiva
+            
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Poder practicar en un entorno seguro me dio confianza."
+              </div>
+              <div class="testimonial-author">
+                — Hugo, 29 años<br>Grupo 2: Mínimo Control
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Estrategias que no había considerado antes."
+              </div>
+              <div class="testimonial-author">
+                — Alejandro, 26 años<br>Grupo 3: Huida Controlada
+              </div>
+            </div>
+            
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Superé la parálisis inicial."
+              </div>
+              <div class="testimonial-author">
+                — Yajahaira, 28 años<br>Grupo 4: Huida Bloqueada
+              </div>
             </div>
           </div>
           
-          <div class="testimonial-card">
-            <div class="testimonial-text">
-              "Poder practicar en un entorno seguro me dio confianza."
-            </div>
-            <div class="testimonial-author">
-              — Hugo, 29 años<br>Grupo 2: Mínimo Control
-            </div>
+          <!-- BOTÓN (FUERA DEL GRID) -->
+          <div class="user-videos-btn">
+            <a href="https://drive.google.com/drive/folders/1ExVFrEKAoeINx78eaQzvr8BWoXIbZ9xq?usp=drive_link" target="_blank" class="btn">
+              Videos de pruebas de usuario
+            </a>
           </div>
-          
-          <div class="testimonial-card">
-            <div class="testimonial-text">
-              "Estrategias que no había considerado antes."
-            </div>
-            <div class="testimonial-author">
-              — Alejandro, 26 años<br>Grupo 3: Huida Controlada
-            </div>
-          </div>
-          
-          <div class="testimonial-card">
-            <div class="testimonial-text">
-              "Superé la parálisis inicial."
-            </div>
-            <div class="testimonial-author">
-              — Yajahaira, 28 años<br>Grupo 4: Huida Bloqueada
-            </div>
-          </div>
-        </div>
-        
-        <!-- BOTÓN (FUERA DEL GRID) -->
-        <div class="user-videos-btn">
-          <a href="https://drive.google.com/..." target="_blank" class="btn">
-            Videos de pruebas de usuario
-          </a>
-        </div>
-        
+        </div>        
       </div>
     </div>
     
@@ -322,70 +371,70 @@
   
   <!-- Slide 6: El Equipo -->
   <section class="slide bg5">
+    
     <div class="slide-content">
       
       <h3 style="margin-bottom: 30px;">Nuestro Equipo</h3>
       
       <div class="team-grid">
         
+        <!-- Integrante 1 -->
         <div class="team-card">
-          <div style="width:120px;height:120px;background:linear-gradient(135deg,#FFC107,#E53935);
-          border-radius:50%;margin:0 auto 15px;display:flex;align-items:center;
-          justify-content:center;border:3px solid #FFC107;">
-          <span style="font-size:2em;color:#1A1A1A;font-weight:bold;">MN</span>
+          <div class="team-avatar">
+            <img src="assets/img/team/1.jpg" alt="Melany Cahuana">
+          </div>
+          <h5>Melany Cahuana</h5>
+          <p>Desarrollo & Diseño</p>
         </div>
-        <h5>Melany Cahuana</h5>
-        <p>Desarrollo & Diseño</p>
+        
+        <!-- Integrante 2 -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="assets/img/team/2.jpg" alt="Andrea Cuela">
+          </div>
+          <h5>Andrea Cuela</h5>
+          <p>Investigación & UX</p>
+        </div>
+        
+        <!-- Integrante 3 -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="assets/img/team/3.jpg" alt="Merisabel Ruelas">
+          </div>
+          <h5>Merisabel Ruelas</h5>
+          <p>Análisis & Testing</p>
+        </div>
+        
+        <!-- Integrante 4 -->
+        <div class="team-card">
+          <div class="team-avatar">
+            <img src="assets/img/team/4.jpg" alt="Rushell Zavalaga">
+          </div>
+          <h5>Rushell Zavalaga</h5>
+          <p>Diseño & Prototipado</p>
+        </div>
+        
       </div>
-      
-      <div class="team-card">
-        <div style="width:120px;height:120px;background:linear-gradient(135deg,#FFC107,#E53935);
-        border-radius:50%;margin:0 auto 15px;display:flex;align-items:center;
-        justify-content:center;border:3px solid #FFC107;">
-        <span style="font-size:2em;color:#1A1A1A;font-weight:bold;">AC</span>
-      </div>
-      <h5>Andrea Cuela</h5>
-      <p>Investigación & UX</p>
     </div>
     
-    <div class="team-card">
-      <div style="width:120px;height:120px;background:linear-gradient(135deg,#FFC107,#E53935);
-      border-radius:50%;margin:0 auto 15px;display:flex;align-items:center;
-      justify-content:center;border:3px solid #FFC107;">
-      <span style="font-size:2em;color:#1A1A1A;font-weight:bold;">MR</span>
+    <!-- Footer de la slide -->
+    <div class="slide-footer">
+      <p><strong>Proyecto de Interacción Humano Computador</strong></p>
+      <p>UNSA — Ciencia de la Computación</p>
     </div>
-    <h5>Merisabel Ruelas</h5>
-    <p>Análisis & Testing</p>
-  </div>
+    
+    <!-- Navegación -->
+    <div class="nav-hints">
+      <div class="nav-top">Haz clic arriba para retroceder</div>
+      <div class="nav-bottom">Haz clic abajo para avanzar</div>
+    </div>
+    
+  </section>
   
-  <div class="team-card">
-    <div style="width:120px;height:120px;background:linear-gradient(135deg,#FFC107,#E53935);
-    border-radius:50%;margin:0 auto 15px;display:flex;align-items:center;
-    justify-content:center;border:3px solid #FFC107;">
-    <span style="font-size:2em;color:#1A1A1A;font-weight:bold;">RZ</span>
-  </div>
-  <h5>Rushell Zavalaga</h5>
-  <p>Diseño & Prototipado</p>
-</div>
-
-</div>
-<div class="slide-footer">
-  <p><strong>Proyecto de Interacción Humano Computador</strong></p>
-  <p>UNSA — Ciencia de la Computación</p>
-</div>
-
-
-</div>
-
-<div class="nav-hints">
-  <div class="nav-top">Haz clic arriba para retroceder</div>
-  <div class="nav-bottom">Haz clic abajo para avanzar</div>
-</div>
-</section>
-
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script src="js/project_scripts.js"></script>
-
+  
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/project_scripts.js"></script>
+  
 </body>
 </html>
